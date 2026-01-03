@@ -1,0 +1,35 @@
+# Credenciales y configuración sensible
+.env
+*.json
+credentials/
+token.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Output de extracción
+output/
+*.log
+extracted_data/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
